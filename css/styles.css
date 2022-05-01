@@ -80,7 +80,9 @@
     color: #ffffff;
     background: var(--accent)
   }
-  
+  .btn {
+    cursor: pointer;
+  }
   .advantages .title {
     display: none;
   }
@@ -210,6 +212,9 @@
    .btn-list:focus {
        background-color: var(--accent);
        color: #ffffff
+   }
+   .btn-list {
+    cursor: pointer;
    }
 
    .project {
