@@ -1,0 +1,231 @@
+:root {
+    --color-main-text: #212121;
+    --color-secondary-text: #757575;
+    --accent: #2196f3;
+    --main-bg-cl: #e5e5e5;
+    --secondary-bg-cl: #2f303a;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  .header {
+    background-color: #ececec;
+  }
+  
+  .logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--accent);
+  }
+  
+  .logo-accent {
+    color: var(--color-main-text);
+  }
+  
+  .site-nav .link {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--color-main-text);
+  }
+  
+  .site-nav .link:hover,
+  .site-nav .link:focus {
+    color: var(--accent);
+  }
+  
+  .site-nav .contact-link {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--color-secondary-text);
+  }
+  
+  .site-nav .contact-link:hover,
+  .site-nav .contact-link:focus {
+    color: var(--accent);
+  }
+  
+  .hero {
+    background-color: var(--secondary-bg-cl);
+  }
+  .title {
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 136%;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .btn {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 188%;
+    color: #ffffff;
+    background: var(--accent);
+  }
+  
+  .advantages .title {
+    display: none;
+  }
+  
+  .subtitle {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-main-text);
+  }
+  
+  .text {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: var(--color-secondary-text);
+  }
+  
+  .work .title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: var(--color-main-text);
+  }
+  
+  .team {
+    background-color: #f5f4fa;
+  }
+  .team .title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-main-text);
+  }
+  
+  .team .name {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--color-main-text);
+  }
+  
+  .team .position {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--color-secondary-text);
+  }
+  
+  .footer {
+    background-color: var(--secondary-bg-cl);
+  }
+  
+  .logo-ftr {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--accent);
+  }
+  .logo-accent-ftr {
+    color: #ffffff;
+  }
+  
+  .adrs-ftr {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
+  .nav-ftr {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: var(--color-secondary-text);
+  }
+  
+  .adrs-ftr:hover,
+  .adrs-ftr.link:focus {
+    color: var(--accent);
+  }
+  .nav-ftr:hover,
+  .nav-ftr.link:focus {
+    color: var(--accent);
+  }
+
+  /* Portfolio.html */
+
+  .btn-section.title {
+      display: none;
+  }
+   .btn-list {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    letter-spacing: 0.03em;
+    color: var(--color-main-text);
+    background-color: #F5F4FA;
+   }
+
+   .btn-list:hover,
+   .btn-list:focus {
+       background-color: var(--accent);
+       color: #ffffff
+   }
+
+   .project {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 200%;
+    letter-spacing: 0.06em;
+    color: var(--color-main-text);
+   }
+   .name { 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 188%;
+    letter-spacing: 0.03em;
+    color:var(--color-secondary-text);
+   }
